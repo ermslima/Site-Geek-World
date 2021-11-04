@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo Customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilos-topo.css"> 
+    <link rel="stylesheet" type="text/css" href="css/estilo-paginas.css"> 
+    <link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css">
+    <title> Geek World </title>
+    <link rel="icon" href="imagens/geekworld logo.png">
+
+
+</head>
+
+<body>
+
+<nav> <!-- Topo site-->
+    <div id="container">
+        <div class="div-fundo">
+            <div class="conteudo">
+                <a href="quem-somos.html"> <i class="fas fa-comments ajuste"></i> ATENDIMENTO</a> 
+                <a href="pedraogod"> <i class="fas fa-heart ajuste"></i> LISTA DE DESEJOS</a>
+                <a href="https://rastreamento.correios.com.br/app/index.php"> <i class="fas fa-box-open ajuste"></i> RASTREAR ENCOMENDAS</a>
+            </div>
+        </div>
+    </div>
+</nav><!-- -->
+
+<header> <!-- Navbar-->
+    <div  id="nav-geek">
+        <div class="nav-ajuste">
+            <div class="logo">
+                <a href="index.html">
+                <img src="imagens/png logo.png" width="142"> </a>
+            </div>
+
+            <div class="search-box">
+                <input class="search-txt" type="search" name="search" placeholder="Buscar produto ..." required>
+               
+            </div>
+
+            <div class="conta">
+                <div class="conta-cliente">
+                    <a href="#"> Acessar conta <i class="fas fa-chevron-down ajust"></i> </a>
+                   
+                   
+                </div>
+            </div>
+
+            <div class="carrinho">
+                <div class="compras">
+                   <a href="#"> <i class="fas fa-cart-plus"></i> </a>
+                </div>
+            </div>
+
+           
+
+         
+         
+
+        </div>
+    </div>
+
+    
+</header> <!-- -->
+
+<nav> <!-- menu drop-->
+    <div class="drop">
+        <div class="menu-drop">
+             <ul class="menu-ul">
+                 <li>
+                     <a href="promocoes.html"> Promoções </a>  
+                 </li>
+                 <li>
+                    <a href="pagina-masculino.html"> Masculino </a> 
+                </li>
+                <li>
+                    <a href="pagina-feminina.html"> Feminino </a>
+                </li>
+                <li>
+                    <a href="games.html"> Games</a>
+                </li>
+                <li>
+                    <a href="decoracao.html"> Decoração </a>
+                </li>
+             </ul>
+        </div>
+    </div>
+</nav> <!-- -->
+
+
+<div class="box-dados-para-acesso">
+    <form action="">
+        <fieldset>
+            <legend><b>Dados para acesso</b></legend>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">E-mail</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">Confirme seu E-mail</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelInput">senha: </label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelInput">Confirme sua senha</label>
+            </div>
+            <br><br>
+            <div class="box-tipo-de-cadastro">
+                <form action="">
+                        <br><br>
+                        <p>Tipo de cadastro</p>
+                        <input type="radio" id="feminino" name="tipo-de-cadastro" value="feminino" required>
+                        <label for="feminino">Pessoa Física</label>
+                        <br>
+                        <input type="radio" id="masculino" name="tipo-de-cadastro" value="masculino" required>
+                        <label for="masculino">Pessoa Jurídica</label>
+                        <br>
+                        </form>
+             </div>
+             <div class="box-dados-pessoais">
+             <form action="">
+                     <br><br>
+                     <p>Dados Pessoais</p>
+             <div class="inputbox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome completo</label>
+            </div>
+            <br><br>
+            <div class="inputbox">
+            <input type="tel" maxlength="14" spellcheck="false" name="cpf" id="cpf" class="inputUser" required>
+            <label for="cpf" class="labelInput">CPF</label>
+        </div>
+        <br><br>
+        <div class="inputbox">
+            <input type="tel" maxlength="10" spellcheck="false" name="celular" id="celular" class="inputUser" required>
+            <label for="celular" class="labelInput">Celular</label>
+        </div> 
+        <br><br>
+        <div class="inputbox">
+            <input type="tel" maxlength="10" spellcheck="false" name="telefone" id="telefone" class="inputUser" required>
+            <label for="telefone" class="labelInput">Telefone fixo</label>
+        </div> 
+        <br><br>
+        <div class="control-group  " style="">
+            <label for="id_sexo" class="control-label ">Sexo</label>
+            <div class="controls">
+              <select class="input-medium" id="id_sexo" name="sexo">
+<option value="" selected="selected"> - Selecione - </option>
+<option value="m">Masculino</option>
+<option value="f">Feminino</option>
+<option value="f">Outros</option>
+</select>
+            </div>
+            <br>
+            <label for="data_nascimento"><b>Data de nascimento:</b></label>
+            <input type="date" name="data_nascimento" id="data_nascimento" required>
+        <br><br>
+          </div>
+          <div class="box-dados-pessoais">
+            <form action="">
+                    <br><br>
+                    <p>Endereço</p>
+<div id="direitos" class="ajuste-footer-promocoes"> <!--Rodape-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h5 class="direitos1">© 2021 - Todos os direitos reservados. Conteúdo licenciado.</h5>
+            </div>
+
+            <div class="col-md-6">
+                <h5 class="direitos2">Desenvolvimento Grupo 8 - TADS 
+                   
+                </h5>
+                
+            </div>
+
+        </div>
+    </div>
+</div> <!--Rodape-->
+
+
+   
+</body>
+</html>
